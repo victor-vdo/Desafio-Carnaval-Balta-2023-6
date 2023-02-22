@@ -18,7 +18,6 @@ switch (opcao)
         resultado = crypt.Encrypt(valor);
         Console.WriteLine("Valor: " + resultado);
         break;
-
     case 2:
         Console.WriteLine("Digite um valor para decriptar:");
         valor = Console.ReadLine();
@@ -33,11 +32,3 @@ switch (opcao)
         goto Retorna;
         break;
 }
-
-
-
-
-
-
-
-
